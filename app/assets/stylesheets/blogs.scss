@@ -1,0 +1,52 @@
+// Place all the styles related to the blogs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  padding-top: 70px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+
+.wrapper {
+  margin: 0px auto;
+  padding: 20px 20px 20px 35px;
+  .row {
+    //border-bottom: 1px solid #ccc;
+    //padding: 0px;
+    margin: -21px;
+    text-align: left;
+    word-wrap: break-word;
+  }
+}
+
+
+.caption{
+    margin: -3px;
+    background-color: white;
+}
+
+.caption:hover{
+    background-color: #F8F8F8;
+}
+
+
+
+#tweet {
+    margin-bottom: 60px;
+}
+
+input[type="submit"].btn-block{
+  margin: 15px 0;
+}
+
+
